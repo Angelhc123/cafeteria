@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Café Nórdico Tacna</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <meta name="description" content="Café Nórdico: cafetería y pastelería artesanal en Av. San Martín 845, Cercado de Tacna. Cafés de especialidad, postres y reservas por WhatsApp.">
+  <meta name="theme-color" content="#f7f2ea">
+  <meta property="og:title" content="Café Nórdico · Tacna">
+  <meta property="og:description" content="Un buen café, un mejor momento. Cafetería y pastelería artesanal en el corazón de Tacna.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23171310'/%3E%3Cpath d='M18 26h24v10a12 12 0 0 1-24 0z' fill='%23f7f2ea'/%3E%3Cpath d='M42 29h3a4 4 0 0 1 0 8h-3' stroke='%23f7f2ea' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Gloock&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.97L2 22l5.17-1.5A9.93 9.93 0 1 0 12.04 2Zm0 18.13a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.07.89.9-3-.2-.31a8.22 8.22 0 1 1 6.86 3.75Zm4.5-6.15c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.55.12-.16.25-.63.8-.78.97-.14.16-.29.18-.53.06a6.73 6.73 0 0 1-3.32-2.9c-.25-.43.25-.4.72-1.33.08-.16.04-.3-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.74 2.74 0 0 0-.86 2.04 4.77 4.77 0 0 0 1 2.53 10.9 10.9 0 0 0 4.18 3.7c1.56.67 2.17.73 2.95.61.47-.07 1.46-.6 1.67-1.18.2-.58.2-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.87.25-1.46 1.5-1.46h1.6V4.45A21 21 0 0 0 14.27 4C12 4 10.5 5.38 10.5 7.92v2.58H7.9v3h2.6V21h3Z"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+  <symbol id="i-marca" viewBox="0 0 40 40"><circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 17h15v6a7.5 7.5 0 0 1-15 0z" fill="currentColor"/><path d="M26 19h2a3 3 0 0 1 0 6h-2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15 9.5c-1 1.5 1 2.5 0 4M19 9.5c-1 1.5 1 2.5 0 4M23 9.5c-1 1.5 1 2.5 0 4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="cabecera" id="cabecera">
+  <div class="envoltura">
+    <a href="#inicio" class="logo" aria-label="Café Nórdico, ir al inicio">
+      <svg class="logo-marca"><use href="#i-marca"/></svg>
+      <span class="logo-texto"><strong>Café Nórdico</strong><small>Tacna · Perú</small></span>
+    </a>
+    <button class="menu-boton" id="menu-boton" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24"><path d="M4 8h16M4 16h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#carta">Carta</a>
+      <a href="#galeria">Galería</a>
+      <a href="#promociones">Promociones</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#reservas" class="btn btn-principal">Reservar mesa</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. Inicio -->
+  <section class="inicio" id="inicio">
+    <div class="envoltura">
+      <div class="inicio-texto">
+        <span class="etiqueta">Cafetería · Pastelería artesanal · Tacna</span>
+        <h1>Un buen café, <em>un mejor</em> momento.</h1>
+        <p class="inicio-lead">Café peruano tostado cada semana, postres hechos en casa y una mesa tranquila en plena Avenida San Martín.</p>
+        <div class="inicio-acciones">
+          <a href="#carta" class="btn btn-principal">Ver nuestra carta <svg><use href="#i-flecha"/></svg></a>
+          <a href="https://wa.me/51952684731?text=Hola%20Caf%C3%A9%20N%C3%B3rdico%2C%20quisiera%20reservar%20una%20mesa." class="btn btn-borde js-wa" data-msg="Hola Café Nórdico, quisiera reservar una mesa." target="_blank" rel="noopener">
+            <svg><use href="#i-whatsapp"/></svg> Reservar por WhatsApp
+          </a>
+        </div>
+        <div class="inicio-datos">
+          <div><span>Dirección</span><strong>Av. San Martín 845</strong></div>
+          <div><span>Hoy</span><strong id="horario-hoy">8:00 a. m. – 10:00 p. m.</strong></div>
+          <div><span>Desde</span><strong>S/ 6.00</strong></div>
+        </div>
+      </div>
+      <div class="inicio-foto">
+        <img src="assets/img/hero.jpg" alt="Barista preparando café filtrado en la barra de Café Nórdico" width="1200" height="800" fetchpriority="high">
+        <svg class="sello" viewBox="0 0 120 120" aria-hidden="true">
+          <defs><path id="circulo" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs>
+          <circle cx="60" cy="60" r="58" style="fill: var(--crema)"/>
+          <text font-family="Figtree, sans-serif" font-size="10.5" font-weight="700" letter-spacing="3.2" fill="currentColor">
+            <textPath href="#circulo">CAFÉ NÓRDICO · TACNA · PERÚ · </textPath>
+          </text>
+          <use href="#i-marca" x="42" y="42" width="36" height="36"/>
+        </svg>
+        <div class="estado" id="estado" role="status">
+          <span class="estado-punto"></span><span id="estado-texto">Abierto ahora</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="franja" aria-hidden="true">
+    <div class="franja-pista">
+      <span>Café de altura de Sandia, Puno</span><span>Tostado en Tacna cada semana</span><span>Pastelería del día</span><span>Leche vegetal sin costo extra</span><span>Wifi para trabajar</span>
+      <span>Café de altura de Sandia, Puno</span><span>Tostado en Tacna cada semana</span><span>Pastelería del día</span><span>Leche vegetal sin costo extra</span><span>Wifi para trabajar</span>
+    </div>
+  </div>
+
+  <!-- 2. Nosotros -->
+  <section class="seccion nosotros" id="nosotros">
+    <div class="envoltura">
+      <div class="nosotros-fotos revelar">
+        <img class="f1" src="assets/img/nosotros.jpg" alt="Salón de Café Nórdico con mesas de madera y luz natural" loading="lazy" width="900" height="600">
+        <img class="f2" src="assets/img/granos.jpg" alt="Granos de café recién tostados" loading="lazy" width="900" height="686">
+      </div>
+      <div class="nosotros-texto revelar">
+        <span class="etiqueta">Nosotros</span>
+        <h2 class="titulo-seccion">Cada taza tiene una historia.</h2>
+        <p class="nosotros-cita">En Café Nórdico creemos que cada taza de café tiene una historia.</p>
+        <p>Somos una cafetería ubicada en el corazón de Tacna, dedicada a ofrecer experiencias únicas a través de cafés seleccionados, postres artesanales y un ambiente acogedor para compartir buenos momentos.</p>
+        <div class="pilares">
+          <div><strong>Café seleccionado</strong><span>Granos peruanos de altura, tostado medio.</span></div>
+          <div><strong>Hecho en casa</strong><span>Postres y panes horneados cada mañana.</span></div>
+          <div><strong>Sin apuro</strong><span>Mesas amplias, buena luz y wifi.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Carta -->
+  <section class="seccion carta" id="carta">
+    <div class="envoltura">
+      <div class="carta-top revelar">
+        <div class="cabecera-seccion">
+          <span class="etiqueta">Nuestra carta</span>
+          <h2 class="titulo-seccion">Para tomar, para acompañar.</h2>
+          <p>Precios en soles, IGV incluido.</p>
+        </div>
+        <div class="pestanas" role="tablist" aria-label="Categorías de la carta">
+          <button class="pestana" role="tab" id="tab-cafes" aria-selected="true" aria-controls="platos" data-cat="cafes">Cafés</button>
+          <button class="pestana" role="tab" id="tab-postres" aria-selected="false" aria-controls="platos" data-cat="postres">Postres</button>
+          <button class="pestana" role="tab" id="tab-otros" aria-selected="false" aria-controls="platos" data-cat="otros">Otros</button>
+        </div>
+      </div>
+      <div class="platos" id="platos" role="tabpanel" aria-labelledby="tab-cafes"></div>
+      <p class="carta-nota">Pregunta por la leche de almendra o avena: la cambiamos sin costo extra.</p>
+    </div>
+  </section>
+
+  <!-- 4. Galería -->
+  <section class="seccion galeria" id="galeria">
+    <div class="envoltura">
+      <div class="cabecera-seccion revelar">
+        <span class="etiqueta">Galería</span>
+        <h2 class="titulo-seccion">Así se vive Café Nórdico.</h2>
+        <p>El salón, la barra, nuestros postres y las personas que nos visitan.</p>
+      </div>
+      <div class="galeria-grid">
+        <figure class="revelar"><img src="assets/img/gal-barra.jpg" alt="Barra del café con estantes y luces colgantes" loading="lazy" width="900" height="506"><figcaption>Nuestra barra</figcaption></figure>
+        <figure class="revelar"><img src="assets/img/gal-vertido.jpg" alt="Café helado preparado con método de goteo" loading="lazy" width="600" height="900"><figcaption>Preparación de bebidas</figcaption></figure>
+        <figure class="revelar"><img src="assets/img/gal-clientes.jpg" alt="Amigos brindando con tazas de cappuccino" loading="lazy" width="900" height="600"><figcaption>Buenos momentos</figcaption></figure>
+        <figure class="revelar"><img src="assets/img/gal-portafiltros.jpg" alt="Portafiltros con café molido y en grano" loading="lazy" width="600" height="900"><figcaption>Del grano a la taza</figcaption></figure>
+        <figure class="revelar"><img src="assets/img/gal-salon.jpg" alt="Salón principal con mesas y plantas" loading="lazy" width="900" height="617"><figcaption>El salón</figcaption></figure>
+        <figure class="revelar"><img src="assets/img/gal-mesa.jpg" alt="Cappuccino servido en una mesa de madera" loading="lazy" width="600" height="900"><figcaption>Tu mesa te espera</figcaption></figure>
+        <figure class="revelar"><img src="assets/img/gal-preparacion.jpg" alt="Café molido, granos y latte sobre tablas de madera" loading="lazy" width="900" height="600"><figcaption>Presentación</figcaption></figure>
+        <figure class="revelar"><img src="assets/img/promo-postres.jpg" alt="Porción de torta de frambuesa" loading="lazy" width="720" height="900"><figcaption>Postres artesanales</figcaption></figure>
+        <figure class="revelar"><img src="assets/img/gal-terraza.jpg" alt="Terraza exterior con mesas y pizarra" loading="lazy" width="900" height="600"><figcaption>La terraza</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Promociones -->
+  <section class="seccion promos" id="promociones">
+    <div class="envoltura">
+      <div class="cabecera-seccion revelar">
+        <span class="etiqueta">Promociones</span>
+        <h2 class="titulo-seccion">Excusas para volver.</h2>
+        <p>Válidas en el local. No acumulables con otras promociones.</p>
+      </div>
+      <div class="promos-grid">
+        <article class="promo revelar">
+          <img src="assets/img/promo-desayuno.jpg" alt="Café con leche y pastel en una tabla de madera" loading="lazy" width="900" height="600">
+          <div class="promo-cuerpo">
+            <span class="promo-dia">Todos los días</span>
+            <h3>Combo desayuno</h3>
+            <p>Café a elección + croissant recién horneado.</p>
+            <span class="promo-precio">S/ 14.90</span>
+          </div>
+        </article>
+        <article class="promo revelar">
+          <img src="assets/img/promo-frappe.jpg" alt="Frappé helado en vaso de vidrio" loading="lazy" width="900" height="601">
+          <div class="promo-cuerpo">
+            <span class="promo-dia">Miércoles</span>
+            <h3>2x1 en frappés</h3>
+            <p>Pide uno y el segundo va por nuestra cuenta.</p>
+            <span class="promo-precio">2x1</span>
+          </div>
+        </article>
+        <article class="promo revelar">
+          <img src="assets/img/brownie.jpg" alt="Brownie de chocolate en porciones" loading="lazy" width="600" height="900">
+          <div class="promo-cuerpo">
+            <span class="promo-dia">Sábado y domingo</span>
+            <h3>Postres con descuento</h3>
+            <p>En toda la vitrina de postres los fines de semana.</p>
+            <span class="promo-precio">−10 %</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservas -->
+  <section class="seccion reservas" id="reservas">
+    <div class="envoltura">
+      <div class="reservas-texto revelar">
+        <span class="etiqueta">Reservas</span>
+        <h2 class="titulo-seccion">Separa tu mesa.</h2>
+        <p>Completa el formulario y te abrimos WhatsApp con tu reserva ya escrita. Solo tienes que enviarla y te confirmamos en minutos.</p>
+        <ol class="pasos">
+          <li><span>Elige fecha, hora y número de personas.</span></li>
+          <li><span>Presiona «Enviar por WhatsApp» y envía el mensaje.</span></li>
+          <li><span>Te respondemos para confirmar tu mesa.</span></li>
+        </ol>
+      </div>
+      <form class="formulario revelar" id="form-reserva" novalidate>
+        <div class="campo">
+          <label for="r-nombre">Nombre</label>
+          <input id="r-nombre" name="nombre" type="text" autocomplete="name" placeholder="Ej. Lucía Ramos" required>
+        </div>
+        <div class="campo">
+          <label for="r-telefono">Celular</label>
+          <input id="r-telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" placeholder="Ej. 987 654 321" required>
+        </div>
+        <div class="campo">
+          <label for="r-fecha">Fecha</label>
+          <input id="r-fecha" name="fecha" type="date" required>
+        </div>
+        <div class="campo">
+          <label for="r-hora">Hora</label>
+          <select id="r-hora" name="hora" required></select>
+        </div>
+        <div class="campo">
+          <label for="r-personas">Personas</label>
+          <select id="r-personas" name="personas" required>
+            <option value="1">1 persona</option>
+            <option value="2" selected>2 personas</option>
+            <option value="3">3 personas</option>
+            <option value="4">4 personas</option>
+            <option value="5">5 personas</option>
+            <option value="6">6 personas</option>
+            <option value="8">7 a 8 personas</option>
+            <option value="10">Más de 8 personas</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="r-ocasion">Ocasión</label>
+          <select id="r-ocasion" name="ocasion">
+            <option value="">Ninguna en especial</option>
+            <option>Cumpleaños</option>
+            <option>Reunión de trabajo</option>
+            <option>Cita</option>
+            <option>Reunión con amigos</option>
+          </select>
+        </div>
+        <div class="campo campo-ancho">
+          <label for="r-nota">Comentarios (opcional)</label>
+          <textarea id="r-nota" name="nota" placeholder="Ej. Mesa cerca de la ventana, silla para bebé…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-whatsapp"><svg><use href="#i-whatsapp"/></svg> Enviar por WhatsApp</button>
+        <p class="form-mensaje" id="form-mensaje" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- 6. Ubicación y contacto -->
+  <section class="seccion ubicacion" id="contacto">
+    <div class="envoltura">
+      <div class="datos revelar">
+        <div class="cabecera-seccion" style="margin-bottom:0">
+          <span class="etiqueta">Ubicación y contacto</span>
+          <h2 class="titulo-seccion">Te esperamos en el centro de Tacna.</h2>
+        </div>
+        <div class="dato">
+          <h3>Dirección</h3>
+          <p>Avenida San Martín N.º 845<br>Cercado de Tacna, Perú</p>
+        </div>
+        <div class="dato">
+          <h3>Horario</h3>
+          <dl class="horario">
+            <dt>Lunes a sábado</dt><dd>8:00 a. m. – 10:00 p. m.</dd>
+            <dt>Domingo</dt><dd>9:00 a. m. – 8:00 p. m.</dd>
+          </dl>
+        </div>
+        <div class="dato">
+          <h3>Teléfono y WhatsApp</h3>
+          <a href="https://wa.me/51952684731" class="js-wa" data-msg="Hola Café Nórdico, tengo una consulta." target="_blank" rel="noopener">+51 952 684 731</a>
+          <a href="mailto:contacto@cafenordico.pe">contacto@cafenordico.pe</a>
+        </div>
+        <div class="redes">
+          <a class="red" href="https://www.instagram.com/cafenordico.tacna" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg>@cafenordico.tacna</a>
+          <a class="red" href="https://www.facebook.com/search/top?q=Caf%C3%A9%20N%C3%B3rdico%20Tacna" target="_blank" rel="noopener"><svg><use href="#i-facebook"/></svg>Café Nórdico Tacna</a>
+          <a class="red" href="https://wa.me/51952684731" target="_blank" rel="noopener"><svg><use href="#i-whatsapp"/></svg>WhatsApp</a>
+        </div>
+      </div>
+      <div class="mapa revelar">
+        <iframe title="Mapa de Café Nórdico en Av. San Martín 845, Tacna" src="https://www.google.com/maps?q=Avenida+San+Mart%C3%ADn+845,+Tacna,+Per%C3%BA&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <a class="mapa-enlace" href="https://www.google.com/maps/search/?api=1&query=Avenida+San+Mart%C3%ADn+845+Tacna+Per%C3%BA" target="_blank" rel="noopener">Abrir en Google Maps ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pie">
+  <div class="envoltura">
+    <div class="pie-top">
+      <p class="pie-frase">Un buen café, un mejor momento.</p>
+      <a href="#inicio" class="logo" aria-label="Volver al inicio">
+        <svg class="logo-marca"><use href="#i-marca"/></svg>
+        <span class="logo-texto"><strong>Café Nórdico</strong><small>Tacna · Perú</small></span>
+      </a>
+    </div>
+    <div class="pie-bajo">
+      <span>© <span id="anio">2026</span> Café Nórdico · Av. San Martín 845, Tacna</span>
+      <nav aria-label="Redes sociales">
+        <a href="https://www.instagram.com/cafenordico.tacna" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/search/top?q=Caf%C3%A9%20N%C3%B3rdico%20Tacna" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://wa.me/51952684731" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-flotante js-wa" href="https://wa.me/51952684731" data-msg="Hola Café Nórdico, quisiera más información." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg><use href="#i-whatsapp"/></svg><span>Escríbenos</span>
+</a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
